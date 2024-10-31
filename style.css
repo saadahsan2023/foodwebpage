@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background_03.png");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    height:15vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+}
+.logo img{
+    width: 50vh;
+    margin-bottom: 4vh;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li {
+    margin-left: 5vh;
+    font-size: 2.8vh;
+}
+.nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.1vh;
+    font-weight: 800;
+}
+.nav .home{
+    text-decoration: underline;
+}
+.ser{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ser i{
+    font-size: 3vh;
+    margin-right: 2.7vh;
+}
+.icon-1 i{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.hed{
+    height: 50vh;
+    margin-left: 7rem;
+    display: flex;
+    transform: translateY(-15%);
+/* color: #ffff; */
+flex-direction: column;
+justify-content: center;
+line-height: 68px;
+font-family: "DynaPuff", system-ui;
+}
+.hed h3, .hed h1{
+ color: #fff;
+ font-size: 7vh;
+ letter-spacing: 0.2rem;
+ font-weight: bolder;
+}
+.hed h2{
+    color: rgb(208, 24, 24);
+    font-size: 12.6vh;
+    margin-bottom: 1rem;
+}
+.hed h1{
+    font-size: 15vh;
+}
